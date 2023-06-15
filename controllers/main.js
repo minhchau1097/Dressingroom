@@ -1,13 +1,9 @@
-// const domClass = (name) => document.getElementsByClassName(name);
-// import Render from "./../models/render.js";
 
-// topCloth();
-import TopCloth from "../models/product.js";
-import { renderBG, renderUL } from "./controllers.js"
-import { renderProduct } from "./controllers.js";
-import { render } from "./controllers.js";
+import { renderBG, renderUL ,render,renderProduct} from "./controllers.js"
+
 
 window.btnTest = btnTest;
+
 fetch('../data/Data.json')
     .then(res => res.json())
     .then((data) => {

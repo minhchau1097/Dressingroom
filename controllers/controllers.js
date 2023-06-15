@@ -1,5 +1,5 @@
-import { domId } from "../models/dom.js";
-import { domClass } from "../models/dom.js";
+import { domId ,domClass} from "../models/dom.js";
+
 export const renderUL = (arr) => {
     let content = '';
 
